@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# downloaded dataset (re-run get_datasets() to fetch)
+data/raw/
+
+# model weights are large binary files; JSON metrics + plots are tracked instead
+outputs/*.pt
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+
+# scratch test runs
+outputs/test/
+outputs/test_clients/
+outputs/test_fedprox/
